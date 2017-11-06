@@ -9,7 +9,7 @@ For quite a while, two beautifully painted tables have been sitting in the dark 
 - Diodes, sensors and ontable-hardware that can be used for various extensions of the traditional beer pong, truly bringing forth the era of FeerPong
   - Game ideas: (You are welcome to add more!)
     - Holy_Grail_Protocol:
-      - Randomly an active cup will light up for a set time if that cup is hit the team owning the cup will have to drink an extra beer/shot/etc.
+      - Randomly an active cup will light up for a set time. If that cup is hit the team owning the cup will have to drink an extra beer/shot/etc.
   - Crazy new ideas: (Again, add more!)
     - Account creation and cross-game score keeping
     - App/web-app integration for game control, account management etc.
