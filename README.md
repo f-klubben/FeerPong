@@ -13,4 +13,4 @@ For quite a while, two beautifully painted tables has been sitting in the dark c
     - Account creation and cross-game score keeping
     - App/webapp integration for game control, account management etc.
     
-(You are also wellcome to correct any spelling-mistakes you find)
+> You are also wellcome to correct any spelling-mistakes you find
