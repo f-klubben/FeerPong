@@ -1,0 +1,46 @@
+%!
+%
+% Forste udkast til logo for F-klubben, bruges ved at kalde "logo"
+%         (c) Lucifer-data 26-10-1989
+%
+
+% tegner det enkle intergraltegn med paremetre
+% Kald :         angle x y   int  -
+/int {
+    gsave
+       translate
+       /Symbol findfont 100 scalefont setfont
+
+        rotate
+       -14 33 moveto
+	gsave
+	   1 1.5 scale
+           (\362) show
+       grestore
+    grestore
+} def
+
+% Skriver selve logo'et, x,y referer til midten af den midster cirkel.
+% Kald :                  scale x y  logo  -
+/logo {
+   gsave
+      translate
+      gsave
+         120 div
+         dup  neg  scale
+         3 setlinewidth
+         -95 -54 10 0 360 arc stroke
+         0 110.6 10 0 360 arc stroke
+         95 -54 10 0 360 arc stroke
+         0 0 45 0 360 arc stroke   % stor cirkel.
+         93 95 -54 int
+         -147 0 110.6 int
+         -27 -95 -54 int
+      grestore
+   grestore
+} def
+
+300 300 350 logo
+%30 25 40 logo
+
+showpage
