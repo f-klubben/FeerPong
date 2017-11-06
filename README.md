@@ -4,11 +4,11 @@ For quite a while, two beautifully painted tables has been sitting in the dark c
 
 ## FeerPong ideas:
 - Logo encompassing the beers ingraved into the tables via lasercutting
- - See
+  - See
 - Diodes, sensors and ontable-hardware that can be used for various extensions of the traditional beerpong, truely bringing forth the era of FeerPong
- - Game ideas: (You are wellcome to add more!)
-  - Holy_Grail_Protocol:
-   - Randomly an active cup will light up for a set time, if that cup is hit the team owning the cup will have to drink an extra beer/shot/etc.
- - Crazy new ideas: (Again, add more!)
-  - Account creation and cross-game score keeping
-  - App/webapp integration for game control, account management etc.
+  - Game ideas: (You are wellcome to add more!)
+    - Holy_Grail_Protocol:
+      - Randomly an active cup will light up for a set time, if that cup is hit the team owning the cup will have to drink an extra beer/shot/etc.
+  - Crazy new ideas: (Again, add more!)
+    - Account creation and cross-game score keeping
+    - App/webapp integration for game control, account management etc.
