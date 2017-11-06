@@ -1,7 +1,7 @@
 # FeerPong
 F-klubbens overengineered og goldplated beerpong table!
 
-For quite a while, two beautifully painted tables have been sitting in the dark corners of jægerstuen, ready to be turned into the nerdiest (and therefore also, coolest) beer pong tables known to man. This repository has therefore been created to conquer this stalemate and bring the dream to life. Currently, it is a bit empty in here, but in the future, we will collect everything relating to the FeerPong table in here. This will include, but not limited to, 2D files for the laser cutter that will engrave the table (already here, whoop!), code to the notable-hardware and, of course, documentation for it all.
+For quite a while, two beautifully painted tables have been sitting in the dark corners of jægerstuen, ready to be turned into the nerdiest (and therefore also, coolest) beer pong tables known to man. This repository has therefore been created to conquer this stalemate and bring the dream to life. Currently, it is a bit empty in here, but in the future, we will collect everything relating to the FeerPong table in here. This will include, but not limited to, 2D files for the laser cutter that will engrave the table (already here, whoop!), code to the ontable-hardware and, of course, documentation for it all.
 
 ## FeerPong ideas:
 - F-klubbens logo encompassing the beers ingraved into the tables via laser cutting
