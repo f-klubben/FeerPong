@@ -7,7 +7,9 @@ For quite a while, two beautifully painted tables have been sitting in the dark 
 - F-klubbens logo encompassing the beers ingraved into the tables via laser cutting
   - See [the 2D logo laser cutting files](PhysicalDesign/2DLogoLaserCutting)
 - Diodes, sensors and ontable-hardware that can be used for various extensions of the traditional beer pong, truly bringing forth the era of FeerPong
-  - Game ideas: (You are welcome to add more!)
+  - Protocol ideas: (You are welcome to add more!)
+    - Under_Score_Protocol
+      - All active cups (cups on the table that has not yet been consumed) light up 
     - Holy_Grail_Protocol:
       - Randomly an active cup will light up for a set time. If that cup is hit the team owning the cup will have to drink an extra beer/shot/etc.
   - Crazy new ideas: (Again, add more!)
