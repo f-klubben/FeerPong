@@ -3,7 +3,7 @@ F-klubbens overengineered og glodplated beerpong table!
 For quite a while, two beautifully painted tables has been sitting in the dark corners of jægerstuen, ready to be turned into the nerdiest (and therefore also, coolest) beerpong tables known to man. This reposotory has therefore been created to conquer this stalemate and bring the dream to life. Currently it is a bit empty in here, but in the future we will collect everything relating to the FeepPong table in here. This will include, but in not limited to, 3D files for the lasercutter that will ingrave the table (already here, woop!), code to the ontable-hardware and, of cause, documentation for it all.
 
 ## FeerPong ideas:
-- Logo encompassing the beers ingraved into the tables via lasercutting
+- F-klubbens logo encompassing the beers ingraved into the tables via lasercutting
   - See
 - Diodes, sensors and ontable-hardware that can be used for various extensions of the traditional beerpong, truely bringing forth the era of FeerPong
   - Game ideas: (You are wellcome to add more!)
