@@ -15,7 +15,7 @@ For quite a while, two beautifully painted tables have been sitting in the dark 
     - Counter_Attack_Protocol:
       - When a cup is taken away (because the opposite team hit it) one or more cups on the opposite side light up for a short time. If the team downs the beer and then hit one of the cups, the oppsite team recieves a penalty (drink an extra beer/shot, they also have to drink adjecent cups, End_Case_Protocol/Recursive_Protocol starts for them etc.)
     - End_Case_Protocol/Recursive_Protocol:
-      - When a cup is taken away (because the opposite team hit it) a timer starts. When the timer runs out a cup light up and if the team  haven't downed their beer before that, they have to drink that beer too, starting a new timer (this continues until you down a beer before the timer runs out or loose the game) 
+      - When a cup is taken away (because the opposite team hit it) a timer starts. When the timer runs out a cup light up and if the team  haven't downed their beer before that, they have to drink that beer too, starting a new timer (this continues until you down a beer before the timer runs out or loose the game). The timer could be customisable 
   - Crazy new ideas: (Again, add more!)
     - Account creation and cross-game score keeping
     - App/web-app integration for game control, account management etc.
