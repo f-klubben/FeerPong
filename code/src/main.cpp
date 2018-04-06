@@ -37,30 +37,40 @@ PinPair mapper[20] = {
 
 void TurnOn(int led);
 
-int gndSet[] = {15, 2, 19, 21};
-int pwrSet[] = {4, 16, 17, 5, 18};
-
 void setup() {
   Serial.begin(115200);
   for (int i = 0; i < GNDNUM; i++) {
     pinMode(gndSet[i], OUTPUT);
+    digitalWrite(gndSet[i], 1);
+
   }
   for (int i = 0; i < PWRNUM; i++) {
     pinMode(pwrSet[i], OUTPUT);
+    digitalWrite(pwrSet[i], 0);
   }
 }
 
-void TurnOn(int led){
+int iteration = 0;
+int pwrOnSet[PWRNUM];
+int gndOnSet[GNDNUM];
+int gndSet[] = {15, 2, 19, 21};
+void UpdateGND(){
   for (size_t i = 0; i < GNDNUM; i++) {
     digitalWrite(gndSet[i], 1);
   }
-  for (size_t i = 0; i < PWRNUM; i++) {
-    digitalWrite(pwrSet[i], 0);
-  }
+  digitalWrite(gndSet[iteration%4], !gndOnSet[iteration%4]);
+}
+
+void TurnOn(int led){
   PinPair pair = mapper[led];
   digitalWrite(pair.pwrPin, 1);
-  digitalWrite(pair.gndPin, 0);
 }
+
+void TurnOff(int led){
+  PinPair pair = mapper[led];
+  digitalWrite(pair.pwrPin, 0);
+}
+
 int i = 0;
 void loop() {
  Serial.print(mapper[i%20].gndPin);
