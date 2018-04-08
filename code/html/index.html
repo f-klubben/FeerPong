@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<header>
+    <script>
+        function httpGet(pin)
+        {
+            console.log("test");
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", "http://192.168.4.1/flip?led=" + pin, true); // false for synchronous request
+            xmlHttp.send( null );
+            return xmlHttp.responseText;
+        }
+        setInterval(async function(){
+            let res = await fetch("http://192.168.4.1/status");
+            sta = await res.text();
+            sta = sta.split(' ');
+            sta.pop();
+            sta.forEach((x,i) => {
+                obj = eval(('id'+i));
+                if (x == 0) {
+                    obj.style.fill = 'gray';
+                } else if (i < 10) {
+                    obj.style.fill = 'red';
+                } else {
+                    obj.style.fill = 'green';
+                }
+            });
+        }, 300);
+    </script>
+</header>
+<html>
+<body>
+
+<div class="triangle-container2">
+	  <svg height="500" width="500">
+		    <polygon points="250,340 100,0 400,0" class="triangle" />
+
+            <!-- 4 rows !--> 
+            <circle cx="140" id='id0' cy="20" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(0)"/>
+            <circle cx="213" id='id1' cy="20" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(1)" />
+            <circle cx="286" id='id2' cy="20" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(2)" />
+            <circle cx="360" id='id3' cy="20" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(3)" />
+
+            <circle cx="180" id='id4' cy="100" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(4)" />
+            <circle cx="250" id='id5' cy="100" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(5)" />
+            <circle cx="320" id='id6' cy="100" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(6)" />
+
+            <circle cx="215" id='id7' cy="180" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(7)" />
+            <circle cx="286" id='id8' cy="180" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(8)" />
+
+            <circle cx="250" id='id9' cy="270" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(9)" />
+	  </svg>
+</div>
+
+
+<div class="triangle-container" >
+	  <svg height="500" width="500" style=" transform: rotate(180deg);">
+		    <polygon points="250,340 100,0 400,0" class="triangle" />
+
+            <!-- 4 rows !--> 
+            <circle cx="140" id='id10' cy="20" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(10)"/>
+            <circle cx="213" id='id11' cy="20" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(11)" />
+            <circle cx="286" id='id12' cy="20" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(12)" />
+            <circle cx="360" id='id13' cy="20" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(13)" />
+
+            <circle cx="180" id='id14' cy="100" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(14)" />
+            <circle cx="250" id='id15' cy="100" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(15)" />
+            <circle cx="320" id='id16' cy="100" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(16)" />
+
+            <circle cx="215" id='id17' cy="180" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(17)" />
+            <circle cx="286" id='id18' cy="180" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(18)" />
+
+            <circle cx="250" id='id19' cy="270" r="20" stroke="black" stroke-width="3" fill="red" onclick="httpGet(19)" />
+	  </svg>
+</div>
+
+<select>
+  <option value="0">Gamemode off</option>
+  <option value="1">Gamemode standard</option>
+  <option value="2">Gamemode redcone</option>
+</select>
+
+</body>
+</html>
