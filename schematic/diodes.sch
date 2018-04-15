@@ -5735,6 +5735,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <junction x="142.24" y="76.2"/>
 <pinref part="X1" gate="-15" pin="S"/>
 <wire x1="-12.7" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-12.7" y="96.52"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -5762,11 +5763,6 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$28" class="0">
-<segment>
-<wire x1="101.6" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -5788,11 +5784,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="114.3" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="114.3" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
 <junction x="116.84" y="114.3"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<wire x1="86.36" y1="101.6" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
+<junction x="58.42" y="104.14"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -5816,6 +5808,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="63.5" y1="99.06" x2="-205.74" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-205.74" y="114.3"/>
 <junction x="127" y="114.3"/>
+<junction x="63.5" y="99.06"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -5914,10 +5907,11 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="X5" gate="-8" pin="S"/>
 <wire x1="109.22" y1="78.74" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="20.32" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="81.28" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="78.74" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="12.7" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
 <junction x="132.08" y="12.7"/>
 <junction x="132.08" y="20.32"/>
+<pinref part="X5" gate="-9" pin="S"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -6002,11 +5996,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="-241.3" y1="116.84" x2="-241.3" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-241.3" y="114.3"/>
 <junction x="-236.22" y="114.3"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<wire x1="-180.34" y1="101.6" x2="-185.42" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="T9" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -6030,11 +6020,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="-190.5" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-190.5" y="114.3"/>
 <junction x="111.76" y="114.3"/>
-</segment>
-</net>
-<net name="N$50" class="0">
-<segment>
-<wire x1="-165.1" y1="101.6" x2="-170.18" y2="101.6" width="0.1524" layer="91"/>
+<junction x="55.88" y="106.68"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -6152,6 +6138,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="-236.22" y1="50.8" x2="-220.98" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-220.98" y="50.8"/>
+<junction x="-220.98" y="43.18"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -6211,6 +6198,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="-200.66" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-200.66" y="114.3"/>
 <junction x="121.92" y="114.3"/>
+<junction x="60.96" y="101.6"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -6234,6 +6222,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="53.34" y1="81.28" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
 <junction x="-185.42" y="114.3"/>
 <junction x="106.68" y="114.3"/>
+<junction x="53.34" y="109.22"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -6258,6 +6247,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <junction x="-220.98" y="73.66"/>
 <pinref part="X1" gate="-6" pin="S"/>
 <wire x1="-27.94" y1="53.34" x2="-35.56" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-71.12" y="96.52"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -6283,6 +6273,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <junction x="162.56" y="114.3"/>
 <junction x="167.64" y="114.3"/>
 <junction x="172.72" y="114.3"/>
+<pinref part="T7" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -6366,11 +6357,32 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <junction x="-195.58" y="43.18"/>
 <junction x="142.24" y="35.56"/>
 <junction x="132.08" y="45.72"/>
+<junction x="116.84" y="45.72"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,-35.56,40.64,X1-1,S,,,,"/>
+<approved hash="101,1,-35.56,43.18,X1-2,S,,,,"/>
+<approved hash="101,1,-35.56,45.72,X1-3,S,,,,"/>
+<approved hash="101,1,-35.56,48.26,X1-4,S,,,,"/>
+<approved hash="101,1,-35.56,50.8,X1-5,S,,,,"/>
+<approved hash="101,1,-66.04,76.2,X2-1,S,,,,"/>
+<approved hash="101,1,-66.04,73.66,X2-2,S,,,,"/>
+<approved hash="101,1,-66.04,71.12,X2-3,S,,,,"/>
+<approved hash="101,1,-66.04,68.58,X2-4,S,,,,"/>
+<approved hash="101,1,-66.04,66.04,X2-5,S,,,,"/>
+<approved hash="101,1,-66.04,63.5,X2-6,S,,,,"/>
+<approved hash="101,1,-66.04,60.96,X2-7,S,,,,"/>
+<approved hash="101,1,-66.04,58.42,X2-8,S,,,,"/>
+<approved hash="101,1,-66.04,55.88,X2-9,S,,,,"/>
+<approved hash="101,1,-66.04,53.34,X2-10,S,,,,"/>
+<approved hash="101,1,-66.04,50.8,X2-11,S,,,,"/>
+<approved hash="101,1,-66.04,48.26,X2-12,S,,,,"/>
+<approved hash="101,1,-66.04,45.72,X2-13,S,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
